@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     public void init()
     {
         editTextName = findViewById(R.id.editTextName);
-        buttonBelepes = findViewById(R.id.buttonBelepes);// rosszul volt írva
+        buttonBelepes = findViewById(R.id.buttonBelepes);// rosszul volt írv
         SharedPreferences sharedPreferences = getSharedPreferences("Adatok", Context.MODE_PRIVATE);
         String seged = "";
         seged = sharedPreferences.getString("nev","Nincs elmentve a neved!");
